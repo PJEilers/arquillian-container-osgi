@@ -97,6 +97,7 @@ public class ArquillianBundleGenerator {
         properties.setProperty(Constants.BUNDLE_NAME, BUNDLE_NAME);
         properties.setProperty(Constants.BUNDLE_VERSION, BUNDLE_VERSION);
         properties.setProperty(Constants.BUNDLE_ACTIVATOR, ArquillianBundleActivator.class.getCanonicalName());
+        properties.setProperty(Constants.DYNAMICIMPORT_PACKAGE, "java.util.logging");
         properties.setProperty(Constants.IMPORT_PACKAGE, "*;resolution:=optional");
 
         properties.setProperty(Constants.EXPORT_PACKAGE, exportPackages.stream().collect(Collectors.joining(",")));

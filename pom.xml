@@ -13,7 +13,7 @@
     <artifactId>arquillian-osgi</artifactId>
     <packaging>pom</packaging>
 
-    <version>2.2.3.Final-SNAPSHOT</version>
+    <version>2.2.3.Fork</version>
 
     <name>Arquillian OSGi</name>
 
@@ -94,11 +94,6 @@
                 <version>${version.jboss.arquillian.core}</version>
                 <scope>import</scope>
                 <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.logging</groupId>
-                <artifactId>jboss-logging</artifactId>
-                <version>${version.jboss.logging}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.logmanager</groupId>
